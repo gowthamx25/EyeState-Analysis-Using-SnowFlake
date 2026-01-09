@@ -31,24 +31,15 @@ pip install snowflake-connector-python snowflake-snowpark-python pandas matplotl
 - Credentials to connect your Python environment to Snowflake
 
  ## 🚀 Getting Started
-
 1 Clone the repository
-
-git clone https://github.com/gowthamx25/EyeState-Analysis-Using-SnowFlake.git
-
-cd EyeState-Analysis-Using-SnowFlake
-
-
- 2 Open the Notebook
- Open SnowFlake.ipynb in Jupyter Notebook or JupyterLab.
-
+- git clone https://github.com/gowthamx25/EyeState-Analysis-Using-SnowFlake.git
+- cd EyeState-Analysis-Using-SnowFlake
+2 Open the Notebook
+- Open SnowFlake.ipynb in Jupyter Notebook or JupyterLab.
 3 Configure Snowflake Connection
-
- Provide your Snowflake credentials and connection details (account, username, password, role, warehouse, database, schema) in the notebook.
-
+- Provide your Snowflake credentials and connection details (account, username, password, role, warehouse, database, schema) in the notebook.
 4 Run the Cells
-
-Execute the cells step-by-step to load data, explore the dataset, and visualize patterns in eye states.
+- Execute the cells step-by-step to load data, explore the dataset, and visualize patterns in eye states.
 
 ### 📊 What You’ll Analyze
 
@@ -56,8 +47,7 @@ Execute the cells step-by-step to load data, explore the dataset, and visualize 
 
 - Features representing eye openness and related measurements
 - A target label indicating whether the eye is open (0) or closed (1)
-- Using Snowflake and Python, the notebook demonstrates:
-- Loading and storing data in Snowflake tables
+- Using Snowflake and Python, the notebook demonstrates: Loading and storing data in Snowflake tables
 - Querying and transforming data using Snowflake tools
 - Visualizing distributions and relationships
 - Drawing insights for real-world machine learning analysis
